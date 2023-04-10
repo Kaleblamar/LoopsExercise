@@ -75,8 +75,6 @@ console.log(text2);
 //7
 
 for (i = 1; i <= 25; i++) {
-  let three = i / 3;
-  let five = i / 5;
   if (i % 3 == 0 && i % 5 == 0) {
     console.log(`Expecto Patronum`);
   } else if (i % 3 == 0) {
